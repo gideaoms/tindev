@@ -122,7 +122,7 @@ export default function Main({ navigation }) {
           <Text style={styles.matchBio}>{matchDev.bio}</Text>
 
           <TouchableOpacity onPress={() => setMatchDev(null)}>
-            <Text>FECHAR</Text>
+            <Text style={styles.closeMatch}>FECHAR</Text>
           </TouchableOpacity>
         </View>
       )}
